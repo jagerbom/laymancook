@@ -6,6 +6,84 @@ body {
   line-height: 1.6;
 }
 
+/* ----- Home page: header & nav ----- */
+header {
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0 0 4px;
+  font-size: 1.75rem;
+}
+
+header p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+nav {
+  background: #8b5e3c;
+  padding: 12px 20px;
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+
+.recipe {
+  background: white;
+  padding: 16px;
+  margin: 12px 0;
+  border-left: 4px solid #8b5e3c;
+}
+
+.recipe h3 {
+  margin: 0 0 6px;
+}
+
+.recipe h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.recipe h3 a:hover {
+  text-decoration: underline;
+}
+
+.recipe p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+footer {
+  background: #f1e6dc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 32px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* ----- Recipe page ----- */
 .site-header {
   background: #8b5e3c;
   padding: 15px;
